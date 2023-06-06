@@ -89,7 +89,8 @@ c = b
 b = a
 a = c
 
-#technique 2
+#technique 2 : Méthode Pythonique / Destructured Assignment
+
 a, b = b, a
 print(a, b)
 
@@ -103,3 +104,4 @@ b2 = a2 - b2
 print(a2,b2)
 a2 = a2 - b2
 print(a2,b2)
+
