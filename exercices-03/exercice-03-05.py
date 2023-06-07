@@ -1,6 +1,7 @@
 # exo 3.5
 # Alice est en vacance et elle veut suivre ses dépenses quotidiennes.
-# Stockez le montant de chacune de ses dépenses quotidiennes dans une variable différente :
+# Stockez le montant de chacune de ses dépenses quotidiennes dans une 
+# variable différente :
 # - day1 : 26,82
 # - day2 : 42,00
 # - day3 : 31,41
