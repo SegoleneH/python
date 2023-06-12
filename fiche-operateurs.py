@@ -11,14 +11,49 @@ import random
 
     # print(100) -> pas une expression
 
+# OPERATEURS SIMPLES 
+    # additions & soustractions
+    result = 1 + 2
+    result = 3 - 4
 
-# additions & soustractions
 
-#multiplications
+    #multiplications
+    result = 5 * 6
 
-#division
 
-#division entière
+    #division
+    result = 5 / 6
+
+
+    #division entière
+    result = 5 // 6
+
+
+# OPERATEURS COMPOSES
+
+    # ajouter 5 à i et affecter le résultat à la variable i
+    i += 5
+    # c'est la même chose que
+    i = i + 5
+
+    # soustraire 2 à i et affecter le résultat à la variable i
+    i += 2
+    # c'est la même chose que
+    i = i + 2
+
+    # on peut aussi composer des multiplications ou des divisions
+    c *= 2
+    # c'est la même chose que
+    c = c * 2
+
+    c = 3
+    c = c * 2
+    c *= 2
+
+    c /= 2
+    # c'est la même chose que
+    c = c / 2
+
 
 # INCREMENTATION
 
