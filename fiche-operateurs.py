@@ -58,36 +58,35 @@ import random
 # INCREMENTATION
 
     # incrémenter de 1 (=ajouter 1)
-c = 0
+    c = 0
 
-c = c + 1
-c += 1
-# si je remets la même ligne, c=2 < incrémentation stockée dans la variable
-# (c = c + 1) = (c += 1) 
+    c = c + 1
+    c += 1
+    # si je remets la même ligne, c=2 < incrémentation stockée dans la variable
+    # (c = c + 1) = (c += 1) 
 
-c += 1 
+    c += 1 
 
     # décrémenter de 1
-c = c - 1
+    c = c - 1
 
-# l'opérateur -- n'existe pas en python mais il est valide dans d'autres langages
-# c--
-# c'est la même chose que
-c -= 1
+    # l'opérateur -- n'existe pas en python mais il est valide dans d'autres langages
+    # c--
+    # c'est la même chose que
+    c -= 1
 
-# on peut aussi composer des multiplications ou des divisions
-c *= 2
-# c'est la même chose que
-c = c * 2
+    # on peut aussi composer des multiplications ou des divisions
+    c *= 2
+    # c'est la même chose que
+    c = c * 2
 
-c = 3
-c = c * 2
-c *= 2
+    c = 3
+    c = c * 2
+    c *= 2
 
-c /= 2
-# c'est la même chose que
-c = c / 2
-
+    c /= 2
+    # c'est la même chose que
+    c = c / 2
 
 
 
@@ -107,7 +106,8 @@ print("e" in list1) # false
 print("ipsum" in list1) # true
 
 
-# COMPARAISON AVEC DES NOMBRES ALEATOIRES   
+# OPERATEUR DE COMPARAISON 
+    # COMPARAISON AVEC DES NOMBRES ALEATOIRES   
 
 e = random.randint(0, 100)  # génère chiffre random entre 0 & 100 inclus
 f = random.randint(0, 100)
