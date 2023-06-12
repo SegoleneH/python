@@ -151,6 +151,10 @@ c *= 2
 # c'est la même chose que
 c = c * 2
 
+c = 3
+c = c * 2
+c *= 2
+
 c /= 2
 # c'est la même chose que
 c = c / 2
