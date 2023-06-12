@@ -6,4 +6,5 @@
 my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.4
-
+del my_list[1]
+print(my_list)

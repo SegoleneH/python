@@ -14,5 +14,15 @@ print(text5)
 text6 = 'Foo Bar Baz'
 text6 = "Foo \"Bar\" Baz" # --> \= caractère d'échappement \\ = \ 
 
+# documentation d'une fonction
 
+def addition(a: float, b: float) -> float:
+    """Renvoie la somme des nombres a et b
+
+    a float le nombre a
+    b float le nombre b
+    return float
+    """
+#    ^ documentation
+    return a + b
 

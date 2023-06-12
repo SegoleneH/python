@@ -6,4 +6,9 @@
 my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.7
+texte1 = 'bar'
+texte2 = 'lorem'
 
+my_list[1]= texte2
+my_list[3]= texte1
+print(my_list)
