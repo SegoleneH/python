@@ -11,6 +11,9 @@ import random
 
     # print(100) -> pas une expression
 
+
+# PRECEDENCE DES OPERATEURS : https://docs.python.org/3/reference/expressions.html#operator-precedence
+
 # OPERATEURS SIMPLES 
     # additions & soustractions
     result = 1 + 2
