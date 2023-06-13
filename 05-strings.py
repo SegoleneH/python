@@ -137,3 +137,9 @@ def addition(a: float, b: float) -> float:
 # Note : pour sortir de l'aide en ligne, tapez 'q'
 help(addition)
 
+#f-strings
+
+mails=52
+
+text1=f"Vous avez reçu {mails} mails"
+#                       ^^^^^ INTERPOLATION

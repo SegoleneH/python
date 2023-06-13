@@ -465,5 +465,86 @@ foo = []
 # Si j'utilise une première valeur True, python n'essaie pas d'accéder à l'index 0
 print(True or foo[0])
 # Mais si j'utilise une première valeur False, python veut évaluer la valeur suivante et essaie d'accéder à l'index 0, d'où une erreur
-print(False or foo[0]) # IndexError: list index out of range
+#print(False or foo[0]) # IndexError: list index out of range
 
+
+
+# exo opérateur OU logique
+has_cash = bool(random.randint(0, 1))
+has_cb = bool(random.randint(0, 1))
+print(f'{has_cash=}')
+print(f'{has_cb=}')
+
+# version "naïve"
+if has_cash==True or has_cb==True:
+        print("Je peux aller faire les courses") 
+else:
+        print("Je ne peux pas aller faire les courses")
+
+#1ère façon simplifiée
+if has_cash or has_cb:
+    print("Je peux aller faire les courses") 
+else:
+    print("Je ne peux pas aller faire les courses")
+
+#2ème façon far-fetched
+if not has_cash or not has_cb:
+        print("Je ne peux pas aller faire les courses")
+else:
+        print("Je peux aller faire les courses")
+
+# exo opérateur ET logique
+has_cash = bool(random.randint(0, 1))
+has_cb = bool(random.randint(0, 1))
+print(f'{has_cash=}')
+print(f'{has_cb=}')
+
+#1 version optimisée
+if not has_cash and not has_cb:
+    print("Je ne peux pas aller faire les courses")
+else:
+    print("Je peux aller faire les courses")
+
+#2 version "naïve"
+if (has_cash== False) and (has_cb== False):
+    print("Je ne peux pas aller faire les courses")
+else:
+    print("Je peux aller faire les courses")
+
+# combinaison d'opérateurs OR et AND
+user_level=2
+user_xp=143
+user_social=0
+
+if user_level >= 3 and user_xp >=100 or user_social >= 10:
+    print("Le joueur peut acheter du matériel")
+else:
+    print("Le joueur ne peut pas acheter du matériel")
+
+
+# exo carte de réduction
+# déterminer la carte de réduction à laquelle le voyageur a droit
+    # entre 0 & 11 ans inclus, il a droit à la gratuité
+    # entre 12 & 25 ans inclus, il a droit à une réduction de 50%
+    # entre 26 & 64 ans inclus, il a droit à une réduction de 10%
+    # au delà de 65 ans, il a droit à une réduction de 50%
+age=random.randint(0, 99)
+
+print(f'{age=}')
+
+if age <= 11:
+    print("Vous avez droit à la gratuité")
+elif age >= 26 and age <= 64:
+    print("Vous avez droit à une réduction de 10%")
+else: # 12-25ans & 65ans et +
+    print("Vous avez droit à une réduction de 50%")
+
+# version "naïve" = plus simple dans ce cas précis
+if age >= 0 and age <= 11:
+        print("Vous avez droit à la gratuité")
+elif age >= 12 and age <= 25:
+    print("Vous avez droit à une réduction de 50%")
+elif age >= 26 and age <= 64:
+    print("Vous avez droit à une réduction de 10%")
+elif age >= 65:
+    print("Vous avez droit à une réduction de 50%")

@@ -39,12 +39,19 @@ else:
 # OPERATEURS BOOLEENS  
 
     # négation 
-    print(not True)
-    print(not False)
+    print(not True) # = False
+    print(not False)# = True
 
     # "OU" logique
-    print(True or True)
         #True s'il y a un True parmi les 2 valeurs
+
+    # "OU" exclusif (Xor)
+        #  A   |   B      | #  A xor B
+    print(True ^ True)      # = False
+    print(True ^ False)     # = True
+    print(False ^ True)     # = True
+    print(False ^ False)    # = False
+        # True s'il y a 1x True (l'un ou l'autre mais pas les 2 en même temps)
 
     # "ET" logique
         # False dès qu'il y a un false parmi les 2 valeurs
