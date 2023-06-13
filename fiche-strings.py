@@ -115,6 +115,29 @@ text11=" ".join(list1)    # = je veux réassembler les ["str","str"] en 1 "str"
 print(text11)             # résultat = foo bar baz foo
 
 
+# documenter une fonction
+def ouiNon(value):
+    """Cette fonction renvoie :
+    -"oui" si le paramètre passé est True
+    -"non" si le paramètre passé est False
+    - "" dans les autres cas"""
+
+    if value == True:
+        return "oui"
+    elif value == False:
+        return "non"
+    
+        return ""     # on a enlevé le "else"
+    
+print(ouiNon.__doc__)
+
+# Pour cette variable, dans d'autres langages on aurait mis des coms
+    # -"oui" si le paramètre passé est True
+    # -"non" si le paramètre passé est False
+    # - "" dans les autres cas
+
+# Mais en Python, on documente la variable comme ci-dessus
+    
 
 # Programmation orientée Objet
 
