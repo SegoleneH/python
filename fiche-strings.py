@@ -1,4 +1,4 @@
-# Notation pour sauter des lignes dans la chaîne de caractères
+# Notation pour écrire une chaîne de caractères sur plusieurs lignes
 text4 = """ <div>
                 <h1></h1>
             <div>
