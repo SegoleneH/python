@@ -109,7 +109,7 @@ print("e" in list1) # false
 print("ipsum" in list1) # true
 
 
-# OPERATEUR DE COMPARAISON 
+# OPERATEUR DE COMPARAISON (< , > , <= , >= , == (égalité), != (différence))
     # COMPARAISON AVEC DES NOMBRES ALEATOIRES   
 
 e = random.randint(0, 100)  # génère chiffre random entre 0 & 100 inclus

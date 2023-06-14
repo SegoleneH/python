@@ -11,4 +11,4 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 i=0
 for i, item in enumerate(my_list):
     if item == 3.14:
-        print(i, item)
+        print(i)

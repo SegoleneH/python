@@ -12,7 +12,8 @@ matrix = [
 print(matrix[1][2])
 
 # code 6.2
-# Pour afficher toutes les combinaisons possibles de deux nombres de 0 à n inclus vous pouvez utiliser deux boucles `for` imbriquées
+# Pour afficher toutes les combinaisons possibles de deux nombres de 0 à n inclus vous pouvez
+# utiliser deux boucles `for` imbriquées
 #
 # Exemple de toutes les combinaisons possibles de deux nombres de 0 à 2 inclus
 for i in range(0, 3):
