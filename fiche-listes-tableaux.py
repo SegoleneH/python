@@ -1,3 +1,5 @@
+                                        # LISTES
+                                        
 # DECLARATION D'UNE LISTE   
 liste1 = [element, element1]
 liste2 = list(element, element1)
@@ -10,6 +12,12 @@ liste2 = list(element, element1)
     nombre1 = 42
     liste1.append(nombre1)
     
+# CONCATENATION DE LISTES
+    liste8 = liste5 + liste6
+
+# FUSION DE LISTES
+    liste5.extend(liste6)
+    
 # UTILISATION D'UN INDEX POUR AFFICHER 1 VALEUR PARTICULIERE 
     # affichage de la première valeur
     print(liste5[0])
@@ -18,11 +26,13 @@ liste2 = list(element, element1)
 # UTILISATION D'UN INDEX POUR SUPPRIMER 1 VALEUR
     del liste5[0]
 
+
+                                        #TABLEAUX
+
+
 # OBTENIR LA LONGUEUR D'UN TABLEAU (LE NOMBRE D'ELEMENTS) = len ()
     taille_tableau5 = len(liste5)
 
-# INSERER ELEMENTS AU MILIEU D'UN TABLEAU
-    liste5.insert(1, "foo")
 
 # REMPLACER (REAFFECTER) 1 VALEUR DU TABLEAU AVEC UN INDEX
     # c'est comme si on écrasait la valeur avec une nouvelle valeur
@@ -45,8 +55,5 @@ liste2 = list(element, element1)
     # là par contre, la valeur supprimée n'est récupérée dans aucune variable (du coup elle est perdue)
     liste6.pop()
 
-# CONCATENATION DE LISTES
-    liste8 = liste5 + liste6
-
-# FUSION DE LISTES
-    liste5.extend(liste6)
+# INSERER ELEMENTS AU MILIEU D'UN TABLEAU
+    liste5.insert(1, "foo")
