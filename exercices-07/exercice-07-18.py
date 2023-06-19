@@ -6,3 +6,11 @@ import random
 
 # réponse 7.18
 
+import random
+
+while True:
+    r = random.randint(0, 100)
+    print(r)
+    if r==100:
+        break
+

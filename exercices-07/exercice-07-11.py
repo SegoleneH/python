@@ -7,3 +7,11 @@ import random
 
 # réponse 7.11
 
+count=0
+
+for i in range(100):
+    r = random.randint(1, 10)
+    print(r)
+    if r<=4 or r>=9:
+        count += 1
+print(f'Nombre de chiffres plus petits/égaux à 4, ou plus grand/égaux à 9 : {count}')

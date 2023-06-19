@@ -7,3 +7,11 @@ import random
 
 # réponse 7.12
 
+count=0
+
+for i in range(100):
+    r = random.randint(1, 10)
+    print(r)
+    if r<=2 and r>=9:
+        count += 1
+print(f'Nombre de chiffres compris entre 2 & 9 : {count}')

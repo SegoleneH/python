@@ -7,3 +7,11 @@ import random
 
 # réponse 7.10
 
+count=0
+
+for i in range(100):
+    r = random.randint(1, 10)
+    print(r)
+    if r>=7:
+        count += 1
+print(f'Nombre de chiffres supérieurs ou égaux à 7 : {count}')

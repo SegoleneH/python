@@ -6,3 +6,7 @@ import random
 
 # réponse 7.5
 
+for i in range(100):
+    r = random.randint(1, 10)
+    if r>=6:
+        print(r,f'Lancer n°{i}')

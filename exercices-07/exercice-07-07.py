@@ -6,3 +6,7 @@ import random
 
 # réponse 7.7
 
+for i in range(100):
+    r = random.randint(1, 10)
+    if r>=3 and r<=8:
+        print(r,f'Lancer n°{i}')
