@@ -55,3 +55,10 @@ else:
 
     # "ET" logique
         # False dès qu'il y a un false parmi les 2 valeurs
+
+
+# PARENTHESES = pour regrouper conditions qui vont ensemble
+if (player1_score > 50 and player2_score > 50) or (player1_has_bonus or player2_has_bonus):
+    print("level up")
+else:
+    print("game over")
