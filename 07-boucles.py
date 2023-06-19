@@ -84,7 +84,7 @@ print('après la boucle')
 
 # tous les endroits d'un boucle `for` où vous pouvez placer du code
 print('avant la boucle')
-for i in range(0, 10)
+for i in range(0, 10):
     print('dans la boucle')
 print('après la boucle')
 
