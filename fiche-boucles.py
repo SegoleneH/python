@@ -81,6 +81,15 @@ for i, user in enumerate(users):        # Permet de retrouver l'index de chaque 
       print(f"{i= }, {user}")           # print : i= 0, foo | i= 1, bar | i= 2, baz
 
 # 5- BOUCLE FOR syntaxe spéciale
-for i, user in range(0, len(users)):        # 0= départ len(users)= nombre d'éléments dans la liste
-      print(f"{i= }, {user}")               # range(0, len(users)) = range(0, 3)
+# for i, user in range(0, len(users)):        # 0= départ len(users)= nombre d'éléments dans la liste
+#       print(f"{i= }, {user}")               # range(0, len(users)) = range(0, 3)
 
+# 6- ACCUMULATEUR (on peut accumuler int, str, float)
+sum = 0
+for i in range(1,11):
+      sum += i          # on ajoute i à l'accumulateur
+      print(f"{i = }")
+      print(f"{sum = }")
+
+print()
+print(f"{sum = }")

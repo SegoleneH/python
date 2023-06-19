@@ -16,4 +16,7 @@ for _ in range(0, size):
 print(matrix)
 
 # réponse 6.18
-
+for i in range(size):
+    for a in range(size):
+        if matrix[i][a]<= 50:
+            print(f"Value :", matrix[i][a], f"| Line :", i+1, f"| Col :", a+1)

@@ -16,4 +16,5 @@ for _ in range(0, size):
 print(matrix)
 
 # réponse 6.17
-
+value = matrix[2][4 - 1]
+print(f"valeur :", value)
