@@ -115,3 +115,11 @@ print(liste8)
 liste5.extend(liste6)
 print(liste5)
 
+
+# exo déplacement élément
+#  0     1      2
+['foo', 'bar', 'baz']
+#  0     1      2     3
+['foo', 'bar', 'baz', 'baz']
+#  0     1      2     3
+['foo', 'bar', 'bar', 'baz']

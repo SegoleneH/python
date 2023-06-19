@@ -1,31 +1,44 @@
                                         # LISTES
                                         
-# DECLARATION D'UNE LISTE   
+# DECLARATION D'UNE LISTE   (peut contenir expression, bool, int ,float ou [liste])
 liste1 = [element, element1]
+
 liste2 = list(element, element1)
 
+liste3 = [
+    element,
+    element1
+]
+
 # AJOUTER ELEMENTS A LA FIN DE LA LISTE
-    # ajouter 1 valeur (peut contenir expression, bool, int ou float)
+    # ajouter 1 valeur 
 liste1.append(123)
 
     # ajouter 1 variable
 nombre1 = 42
 liste1.append(nombre1)
-    
+
+# AJOUTER ELEMENTS N'IMPORTE OÙ DANS LISTE/TABLEAU
+liste1.insert(1, "foo") # ajout en index 1 = 2ème position
+
 # CONCATENATION DE LISTES
 liste8 = liste5 + liste6
 
+
 # FUSION DE LISTES
 liste5.extend(liste6)
-    
+
+
 # UTILISATION D'UN INDEX POUR AFFICHER 1 VALEUR PARTICULIERE 
     # affichage de la première valeur
 print(liste5[0])
 # /!\ si on veut afficher Xème valeur, l'index = X-1
 
+
 # UTILISATION D'UN INDEX POUR SUPPRIMER 1 VALEUR
 del liste5[0]
 
+# VARIABLE SCALAIRE : variable qui contient valeurs qui ne changent pas
 
                                         #TABLEAUX
 
