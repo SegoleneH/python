@@ -84,6 +84,7 @@ for i, user in enumerate(users):        # Permet de retrouver l'index de chaque 
 # for i, user in range(0, len(users)):        # 0= départ len(users)= nombre d'éléments dans la liste
 #       print(f"{i= }, {user}")               # range(0, len(users)) = range(0, 3)
 
+
 # 6- ACCUMULATEUR (on peut accumuler int, str, float)
 sum = 0
 for i in range(1,11):
@@ -93,3 +94,21 @@ for i in range(1,11):
 
 print()
 print(f"{sum = }")
+
+
+# UTILISER LA VALEUR PRÉCÉDENTE DANS UNE BOUCLE
+
+    #ici on veut comparer les valeurs de number avec la valeur qui précède
+numbers=[123, 42, 1000, 3.14]
+#       [None, 123, 42, 1000]       
+previous = None         # la 1ère fois, il n'y a pas de valeur précédente donc on doit mettre cette ligne
+                        # qui joue le même rôle que la l112, pour pouvoir commencer la boucle
+
+for number in numbers:
+    print(number)                   # affichage de la valeur du tour actuel
+    print(previous)                 # affichage de la valeur du tour précédent
+
+    # Préparation du tour suivant: on sauvegarde la valeur du tour actuel pour le tour suivant
+    previous = number               # cette valeur deviendra la valeur du tour précédent
+    # ^^^ doit être à la fin du traitement des données
+                                        
