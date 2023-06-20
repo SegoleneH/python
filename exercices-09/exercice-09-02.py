@@ -8,3 +8,10 @@
 
 # réponse 9.2
 
+my_dict = {
+    'True': "12",
+    'False': "1.2",
+    '42': 'string de caractères',
+    '123Soleil': True
+}
+print(my_dict)

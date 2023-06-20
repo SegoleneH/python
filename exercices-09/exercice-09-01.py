@@ -7,4 +7,10 @@
 # Puis affichez le résultat avec un simple `print()`
 
 # réponse 9.1
-
+my_dict = {
+    '123Soleil': "12",
+    'Soleil123': "1.2",
+    '42Soleil': 'string de caractères',
+    '45Soleil': True
+}
+print(my_dict)

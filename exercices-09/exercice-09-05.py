@@ -11,3 +11,10 @@ my_dict = {
 
 # réponse 9.5
 
+my_dict.pop('foo')
+print(my_dict)
+
+# ou
+
+# my_dict1 = my_dict.pop('foo')
+# print(my_dict)
