@@ -48,6 +48,17 @@ del my_dict['baz']                          # sans copie
 
 print(my_dict['lorem'])
 
+# exo 9.8
+my_dict = {
+    'foo': 42,
+    'bar': 3.14,
+    'baz': 'lorem ipsum',
+    'lorem': True
+}
+
+for key in my_dict:
+    print(f"Key = {my_dict[key]}")      # renvoie valeurs des key au lieu de renvoyer index (tableau)
+
 
 # BOUCLE FOR EACH pour obtenir les clés
 for key in fruits:

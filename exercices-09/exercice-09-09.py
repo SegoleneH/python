@@ -1,5 +1,6 @@
 # exo 9.9
-# En utilisant une boucle `for` et sans utiliser les méthodes `values()` ou `items()`, affichez les clés et les valeurs qui se trouvent dans le dictionnaire
+# En utilisant une boucle `for` et sans utiliser les méthodes `values()` ou `items()`, 
+# affichez les clés et les valeurs qui se trouvent dans le dictionnaire
 # Exemple de résultat attendu :
 # key: foo, value: 42
 # key: bar, value: 3.14
@@ -15,5 +16,5 @@ my_dict = {
 
 # réponse 9.9
 
-for value in my_dict:
-    print(key, value)
+for key in my_dict:
+    print(f"Key : {key}, Value : {my_dict[key]}")

@@ -15,3 +15,9 @@ my_dict = {
 }
 
 # réponse 9.8
+
+
+for key in my_dict:
+    print(f"Value = {my_dict[key]}")
+
+# my_dict[key]  =  la valeur associée à 1 clé 'key' dans dict 'my_list'

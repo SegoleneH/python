@@ -9,3 +9,14 @@
 
 # réponse 10.3
 
+
+def oui_non(value:bool) -> bool:
+    if value == True:
+        return 'oui'
+    else:
+        return 'non'
+
+resultat = oui_non(True)
+print(resultat)
+resultat = oui_non(False)
+print(resultat)

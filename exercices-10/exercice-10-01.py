@@ -7,3 +7,8 @@
 
 # réponse 10.1
 
+def my_sum(a, b):
+    return a + b
+
+resultat = my_sum(42, 123)
+print(f"Le résultat est {resultat}")

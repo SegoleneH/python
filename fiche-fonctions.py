@@ -58,3 +58,8 @@ def reverse_lookup(my_list, value):
 # value=3.14 :soit ça,  soit ça
 result = reverse_lookup(my_list, 3.14)
 print(result)
+
+# TYPE HINTING
+
+# def mult(a:int, b:int)->int:   
+#       =  Signature de la fonction (nom fonction + ses paramètres + son type de retour)

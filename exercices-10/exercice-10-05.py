@@ -9,3 +9,17 @@
 
 # réponse 10.5
 
+import random
+a = random.randint(0, 42)
+b = random.randint(0, 42)
+
+def compare(a:float, b:float) ->int:
+    print(a, b)
+    if a > b:
+        print(1)
+    elif a < b:
+        print(-1)
+    else:
+        print(0)
+
+compare(a, b)

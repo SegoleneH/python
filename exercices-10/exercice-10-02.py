@@ -8,3 +8,8 @@
 
 # réponse 10.2
 
+def my_sum(a:int, b:int) -> int:
+    return a - b
+
+resultat = my_sum(42, 12)
+print(f"Le résultat est {resultat}")

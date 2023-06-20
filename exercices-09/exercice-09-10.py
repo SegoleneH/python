@@ -1,5 +1,6 @@
 # exo 9.10
-# En utilisant une boucle `for` et la méthode `items()`, affichez les clés et les valeurs qui se trouvent dans le dictionnaire
+# En utilisant une boucle `for` et la méthode `items()`, affichez les clés et les valeurs qui 
+# se trouvent dans le dictionnaire
 # Exemple de résultat attendu :
 # key: foo, value: 42
 # key: bar, value: 3.14
@@ -15,3 +16,5 @@ my_dict = {
 
 # réponse 9.10
 
+for key, value in my_dict.items():
+    print(f"Key : {key}, Value : {value}")
