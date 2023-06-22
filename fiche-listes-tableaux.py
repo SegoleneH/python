@@ -41,7 +41,7 @@ liste8 = liste5 + liste6
 liste5.extend(liste6)
 
 
-# UTILISATION D'UN INDEX POUR AFFICHER 1 VALEUR PARTICULIERE 
+# UTILISATION D'UN INDEX POUR AFFICHER 1 VALEUR PARTICULIERE
     # affichage de la première valeur
 print(liste5[0])
 # /!\ si on veut afficher Xème valeur, l'index = X-1
