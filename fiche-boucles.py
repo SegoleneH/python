@@ -66,8 +66,19 @@ for i in range(0, 10):        # 0 inclus, 10 exclu
 
 
 # 3- BOUCLE A REBOURS
+    # exemple 1 avec des chiffres
 for i in range(10, 0, -1):  # (10, 0 , -1): compter de 10 à 1, avec décrémentation de -1 à chaque itération
         print(f'{i = }') 
+
+    # exemple 1 avec une str
+word= "carambar"
+letter= [i for i in word]
+size=len(letter)
+last_index = size -1
+
+
+for i in range(last_index, -1, -1):
+    print(letter[i])
 
 # 4- BOUCLE FOREACH
 users = ['foo','bar','baz']
