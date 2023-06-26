@@ -59,7 +59,43 @@ def reverse_lookup(my_list, value):
 result = reverse_lookup(my_list, 3.14)
 print(result)
 
+
+
 # TYPE HINTING
 
-# def mult(a:int, b:int)->int:   
+def mult(a:int, b:int)->int:   
 #       =  Signature de la fonction (nom fonction + ses paramètres + son type de retour)
+
+
+# copie d'une fonction comme si c'était une variable
+# mult_copy = mult
+# mult_copy(2,5)
+
+
+    # fonction de degré supérieur = fonction qui accepte une fonction en paramètre
+    # ou qui renvoie une fonction
+    def operateur_binaire(a,b,fonction):
+        return fonction(a,b)
+
+    # appel de la fonction de degré supérieur
+    resultat = operateur_binaire(2, 5, mult)
+
+    operations = []
+    operations.append(mult)
+
+    a = 2
+    b = 5
+    resultat = None
+
+    for operation in operations:
+        resultat = operation(a,b)
+
+    # Remplacer fonction len par fonction personnalisée
+        def my_len(value):
+            return 42
+
+        len_backup = len
+
+        len = my_len    # ==> renvoie toujours 42
+        # Problème : on a cassé la fonction len. Si on veut la garder, il faut la stocker dans une
+        # variable temporaire (L97)
