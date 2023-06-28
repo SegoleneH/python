@@ -1,6 +1,7 @@
 // DONNER DES PARAMÈTRES À UNE FONCTION
 
 function nameFunction(nameOfTargetedValue){
+                    //     ^ paramètre
     if (nameOfTargetedValue >= 42){     // <== condition
         nameOfTargetedValue*=0.25;      // <== contenu 
     }
@@ -19,3 +20,5 @@ function discount(purchase){
 
 discount(1900);//discount
 discount(1200);//no discount
+
+// On peut aussi définir plusieurs paramètres séparés par une virgule : (param1, param2)
